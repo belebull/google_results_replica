@@ -1,0 +1,284 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+/*top menu bar*/
+.top-bar {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  top: 0px;
+  left: 0px; 
+  right: 0px;
+  margin: 0px;
+  padding: 15px;
+}
+
+/*logo on menu bar*/
+.logo{ 
+  width: 143px;
+  height: 54px;
+}
+
+/*search button icons*/
+.search-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  float: right;
+  top: -40px;
+}
+
+.search-button {
+  background: transparent;
+  border: 0px; 
+  outline: 0px;
+  margin: 1px;
+}
+
+.search-button img { 
+  height: 25px;
+  width: 25px;
+}
+
+/*search form*/ 
+.search-bar {
+  margin-left: 20px;
+  height: 44px;
+}
+
+.search-bar form { 
+  width: 632px;
+}
+
+/*search box*/ 
+#search-field {
+  font-size: medium; 
+  height: 44px;  
+  width: 632px; 
+  text-indent: 10px; 
+}
+
+/*search options menus*/
+.top-bar-middle { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.search-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 632px;
+  margin: 20px 0px 0px 20px;
+}
+
+.search-mediums, .search-settings {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small; 
+  padding: 0px;
+  margin-right: 0px;
+}
+
+.search-mediums {
+  width: 300px; 
+  padding-left: 5px;
+}
+
+.search-settings {
+  width: 100px;
+}
+
+.menu-option a{
+  text-decoration: transparent;
+  color: #777;
+}
+
+.menu-option a:hover {
+  color: black;
+}
+
+#main-option a {
+  font-weight: bold; 
+  text-decoration: underline;
+  color: #4285f4; 
+}
+
+/*right side menu*/
+.top-bar-right { 
+  position: relative;
+  float: right; 
+  left: 30%;
+}
+
+.account-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 115px;
+}
+
+.menu-option img { 
+  width: 24px; 
+  height: 24px;
+}
+
+#profile-pic {
+  border-radius: 100px;
+}
+
+/*content - list of results*/
+.content {
+  width: 632px;
+  padding-left: 180px;
+  padding-top: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.total-results {
+  font-size: small;
+  color: #771;
+}
+
+.results { 
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.result-entry { 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.result-title {
+  color: #1a0fab; 
+  font-size: large;
+  text-decoration: transparent; 
+}
+
+.result-title:hover {
+  text-decoration: underline;
+}
+
+.result-link {
+  color: green;
+  font-size: smaller; 
+  text-decoration: transparent;
+}
+
+.result-description {
+  margin-top: 0px;
+  font-size: small; 
+  color: #545454;
+  line-height: 18px;
+}
+
+/*related searches*/
+.related-searches {
+  font-weight: normal;
+}
+
+.related-pages {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.related-page-entry {
+  margin-bottom: 10px;
+}
+
+.related-page-entry a{
+  color: #1a0fab;
+  text-decoration: transparent;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.related-page-entry a:hover {
+  text-decoration: underline;
+}
+
+/*Google pagination*/
+
+.pagination-img, .pagination-links{
+  width: 330px;
+}
+
+.pagination-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.pagination_indexes {
+  padding-right: 50px; 
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  width: 220px;
+}
+
+.pagination_index a{
+  text-decoration: transparent;
+  font-size: small;
+  color: #4285f4;
+}
+
+.pagination_index:first-child a{
+  text-decoration: underline #4285f4;
+  color: #1a0fab;
+}
+
+.pagination_index:hover a{
+  text-decoration: underline #4285f4;
+}
+
+.next-link {
+  width: 40px;
+}
+
+footer {
+  background: #f2f2f2;
+  width: 100%;
+  padding: 10px 10px 2px 180px;
+  font-size: small;
+  margin: 40px 0px 0px;
+  height: auto;
+}
+
+.location {
+  color: #777;
+}
+
+.precise-location, .learn-more-option {
+  text-decoration: none;
+  color: #545454;
+}
+
+.footer-menu {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  width: 275px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.footer-menu-item a{
+  text-decoration: none; 
+  color: #545454;
+}

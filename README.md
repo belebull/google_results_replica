@@ -1,2 +1,2 @@
-# google_results_replica
-A CSS replica of the Google search results page
+# google_search_results_replica
+CSS Replica of Google Search Results Page
